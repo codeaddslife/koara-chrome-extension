@@ -1,0 +1,31 @@
+{
+  "manifest_version": 2,
+
+  "name": "Koara",
+  "description": "Render Koara documents in Chrome!",
+  "version": "1.0",
+
+  "options_page":"html/options.html",
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts":[
+    {
+      "matches":[
+        "*://*/*.kd",
+        "file://*/*.kd"
+      ],
+      "js": [
+        "js/content.js",
+      ]
+    }
+  ],
+  "permissions":[
+    "storage",
+    "tabs",
+    "activeTab",
+    "*://*/*.kd",
+    "contextMenus"
+  ]
+}
