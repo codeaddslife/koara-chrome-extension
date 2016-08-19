@@ -1,38 +1,15 @@
 {
-  "manifest_version": 2,
-
   "name": "Koara",
-  "description": "Render Koara documents in Chrome!",
-  "version": "1.0",
-
-  "options_page":"html/options.html",
-
-  "background":{
+  "version": "2.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "background": {
     "scripts": ["js/background.js"],
     "persistent": false
   },
   "browser_action": {
-    "default_icon": "icon.png"
+    "default_title": "Make this page red"
   },
-  "content_scripts":[
-    {
-      "matches":[
-        "*://*/*.kd",
-        "file://*/*.kd"
-      ],
-      "js": [
-        "js/koara.min.js",
-        "js/koara-html.min.js",
-        "js/content.js"
-      ]
-    }
-  ],
-  "permissions":[
-    "storage",
-    "tabs",
-    "activeTab",
-    "*://*/*.kd",
-    "contextMenus"
-  ]
-
+  "manifest_version": 2
 }
