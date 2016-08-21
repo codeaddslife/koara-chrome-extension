@@ -1,0 +1,10 @@
+{
+  "name": "Koara",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_title": "Koara",
+    "default_icon": "icons/icon.png"
+  },
+  "manifest_version": 2
+}
