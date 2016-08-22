@@ -1,10 +1,34 @@
 {
   "name": "Koara",
   "version": "1.0",
-  "permissions": ["activeTab"],
+  "permissions": [
+    "activeTab"
+  ],
   "browser_action": {
     "default_title": "Koara",
     "default_icon": "icons/icon.png"
   },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "*://*/*.kd"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*/*.kd",
+        "file://*/*.kd"
+      ],
+      "css": [
+        "css/base.css"
+      ],
+      "js": [
+        "js/koara.min.js",
+        "js/koara-html.min.js",
+        "js/content.js"
+      ]
+    }
+  ],
   "manifest_version": 2
 }
