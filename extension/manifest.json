@@ -21,7 +21,7 @@
         "file://*/*.kd"
       ],
       "css": [
-        "css/base.css"
+        "css/classic.css"
       ],
       "js": [
         "js/koara.min.js",

@@ -1,1 +1,1 @@
-console.log('XXX')
+console.log('//' + document.innerHTML);

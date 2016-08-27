@@ -1,0 +1,22 @@
+{
+  "name": "koara-chrome-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension to render koara documents",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codeaddslife/koara-chrome-extension.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codeaddslife/koara-chrome-extension/issues"
+  },
+  "homepage": "https://github.com/codeaddslife/koara-chrome-extension#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
