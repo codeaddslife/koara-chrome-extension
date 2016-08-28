@@ -1,9 +1,10 @@
 {
   "name": "Koara",
   "version": "1.0",
-  "permissions": [
-    "activeTab"
-  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["js/background.js"]
+  },
   "browser_action": {
     "default_title": "Koara",
     "default_icon": "icons/icon.png"
