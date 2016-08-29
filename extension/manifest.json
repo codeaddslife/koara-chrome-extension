@@ -18,8 +18,8 @@
         "css/classic.css"
       ],
       "js": [
-        "js/koara.min.js",
-        "js/koara-html.min.js",
+        "js/koara.js",
+        "js/koara-html.js",
         "js/content.js"
       ]
     }
