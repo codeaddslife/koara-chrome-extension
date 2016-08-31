@@ -6,7 +6,7 @@
     "default_icon": "icons/icon.png"
   },
   "permissions": [
-    "tabs"
+    "activeTab"
   ],
   "content_scripts": [
     {
