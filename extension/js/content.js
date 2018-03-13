@@ -10,6 +10,7 @@
     doc.accept(renderer);
 
     var content = document.createElement('div') ;
+    content.className = 'wr';
     content.innerHTML = renderer.getOutput();
     document.body.appendChild(content);
 
